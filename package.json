@@ -1,0 +1,39 @@
+{
+  "name": "condominio",
+  "version": "1.0.0",
+  "description": "servicio app condominio",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rojasadrianza/aplicacion-condominio.git"
+  },
+  "keywords": [
+    "condominio"
+  ],
+  "author": "Humberto Rojas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rojasadrianza/aplicacion-condominio/issues"
+  },
+  "homepage": "https://github.com/rojasadrianza/aplicacion-condominio#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.8.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.8.0",
+    "rxjs": "^7.8.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
